@@ -6,6 +6,16 @@ product_count_2021
 difference
 
 
-select distinct(segment) as segment  , count(product_code) as product_count from dim_product 
- group by segment
- order by product_count desc;
+with cte01 as (SELECT s.product_code , s.fiscal_year , p.segment FROM gdb0041.fact_sales_monthly s
+join dim_product p 
+on p.product_code = s.product_code),
+cte02 as (
+select segment ,count(distinct(product_code)) as unique_products_2020 from cte01 where fiscal_year = 2020
+group by segment),
+cte03 as (
+select segment ,count(distinct(product_code)) as unique_products_2021 from cte01 where fiscal_year = 2021
+group by segment)
+
+select c.segment ,unique_products_2020,unique_products_2021, (unique_products_2021 -unique_products_2020) as difference from cte02 c 
+join cte03 s on c.segment = s.segment
+;
