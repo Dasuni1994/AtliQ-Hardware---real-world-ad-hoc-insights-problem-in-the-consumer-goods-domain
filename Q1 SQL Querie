@@ -1,7 +1,7 @@
 Q1. Provide the list of markets in which the customer "Atliq Exclusive" operates its
 business in the APAC region.
 
-SQL Queries
+
 
 SELECT * FROM gdb0041.dim_customer;
 
