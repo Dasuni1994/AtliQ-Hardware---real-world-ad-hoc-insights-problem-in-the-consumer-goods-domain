@@ -1,0 +1,13 @@
+Q1. Provide the list of markets in which the customer "Atliq Exclusive" operates its
+business in the APAC region.
+
+SQL Queries
+
+SELECT * FROM gdb0041.dim_customer;
+
+select distinct(market) from dim_customer where region = "APAC" and customer="Atliq Exclusive";
+SELECT market
+FROM dim_customer
+WHERE region = 'APAC'
+AND customer = 'Atliq Exclusive'
+GROUP BY market;
