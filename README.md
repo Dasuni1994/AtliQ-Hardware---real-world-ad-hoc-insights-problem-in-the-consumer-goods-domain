@@ -2,6 +2,7 @@
 
 
 📝 **Project Objective**
+
 AtliQ Hardware is a leading computer hardware manufacturer operating across India and other countries. However, leadership faced challenges in making **quick, data-driven decisions**.
 To strengthen the analytics team, the company planned to hire junior data analysts. As part of the hiring process, **Tony Sharma**, Head of Data Analytics, designed a **SQL-based challenge** to assess both technical and analytical thinking skills.
 
