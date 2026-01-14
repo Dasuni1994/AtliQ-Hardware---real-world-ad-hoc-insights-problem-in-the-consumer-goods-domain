@@ -18,14 +18,14 @@ The goal of this project was to deliver **clear, actionable ad-hoc insights** th
   * Average Gross Sales
   * Average Manufacturing Cost
   * Top products by overall sales
-* Translated raw query outputs into meaningful business insights
-* Presented insights through a structured and engaging Power BI dashboard
+  * Translated raw query outputs into meaningful business insights
+
 
 💻 **Tools & Skills Demonstrated**
 
 * **MySQL**: Joins, CTEs, Subqueries, Window Functions, Date, String & Numeric Functions
 * **Power BI**: DAX measures and visuals (Bar, Line, Matrix, Donut, Sunburst, Maps)
-* **Canva & Adobe Express**: Presentation design, themes, and visual enhancement
+* **PowerPoint**: Presentation design, themes, and visual enhancement
 
 
 💡 **Findings & Solutions**
@@ -36,7 +36,6 @@ The goal of this project was to deliver **clear, actionable ad-hoc insights** th
 
 ✨ **Gratitude**
 A huge thank you to **Codebasics**, **Dhaval Patel**, and **Hemanand Vadivel** for creating such impactful, industry-relevant challenges.
-I’m also grateful to **Bhavin Patel**, **Ayushi G**, **Naveen S**, and **Hareesh Vuppalapati** for their guidance, feedback, and encouragement throughout this project.
 
 
 ✍️ I’d love to hear your feedback and suggestions for improvement. Let’s connect and learn together 🚀
