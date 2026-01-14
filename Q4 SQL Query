@@ -1,0 +1,11 @@
+Q4. Follow-up: Which segment had the most increase in unique products in 2021 vs 2020? The final output contains these fields,
+
+segment
+product_count_2020
+product_count_2021
+difference
+
+
+select distinct(segment) as segment  , count(product_code) as product_count from dim_product 
+ group by segment
+ order by product_count desc;
